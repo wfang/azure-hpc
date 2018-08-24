@@ -40,6 +40,7 @@
             "OpenLogic:CentOS-HPC:7.1",
             "OpenLogic:CentOS-HPC:7.3",
             "OpenLogic:CentOS-HPC:7.4",            
+            "SUSE:SLES-HPC:12.3",            
             "OpenLogic:CentOS:7.1",
             "OpenLogic:CentOS:7.3"
          ],
