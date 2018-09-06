@@ -438,6 +438,8 @@ setup_env()
     # Set unlimited mem lock
     echo "$HPC_USER hard memlock unlimited" >> /etc/security/limits.conf
     echo "$HPC_USER soft memlock unlimited" >> /etc/security/limits.conf
+    echo "$HPC_USER hard stack unlimited" >> /etc/security/limits.conf
+    echo "$HPC_USER soft stack unlimited" >> /etc/security/limits.conf
 
     echo "$IMAGE_OFFER" | grep -q 'HPC$'
     if [ $? -eq 0 ]; then
